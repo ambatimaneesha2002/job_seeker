@@ -1,0 +1,4 @@
+[submodule "client"]
+    path = client
+    url = https://github.com/ambatimaneesha2002/self_employment_website.git
+     branch = main
