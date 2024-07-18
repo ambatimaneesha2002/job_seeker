@@ -17,9 +17,8 @@ const io = require('socket.io')(http, {
 });
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://deploy-mern-lwhq.vercel.app'],
-  methods: ['GET', 'POST'],
-  credentials: true
+  origin: {'http://localhost:3000'},
+ 
 }));
 app.use(express.json());
 
